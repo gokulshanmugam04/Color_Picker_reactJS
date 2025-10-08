@@ -6,6 +6,7 @@ function ColorPicker(){
     function handleColorChange(event){
         setColor(event.target.value);
     }
+    ///<h1></h1>
     return(
         <div className="ColorNameContainer">
             <h1>Color Picker</h1>
